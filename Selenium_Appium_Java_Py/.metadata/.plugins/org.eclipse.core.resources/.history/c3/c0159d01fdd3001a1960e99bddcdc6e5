@@ -1,0 +1,61 @@
+import java.util.Scanner;
+
+public class rev {
+	
+	//reverse a string
+	public static void main(String[] args) {
+	String input = "Ramya";
+	StringBuilder input1 = new StringBuilder();
+	input1.append(input);
+	input1 = input1.reverse();
+	System.out.println(input1);
+	
+	//sum of a number
+	int num = 234;
+	int sum = 0;
+	
+	while (num > 0) {
+		sum = sum + num%10;
+		num = num/10;
+	}	
+	
+	System.out.println("Sum is : " + sum);
+	
+	//approach 1  - swapping two numbers
+	
+	int a = 10, b = 20;
+	System.out.println("Before swapping the numbers are a : " +a+ " b : " +b);
+	int t = a;
+	a = b;
+	b = t;	
+	System.out.println("After swapping the numbers are a : " +a+ " b : " +b);
+	
+	//approach 2  - swapping two numbers
+	int c = 10, d = 20;
+	System.out.println("Before swapping the numbers are c : " +c+ " d : " +d);
+	c = c + d; // 30
+	d = c - d; // 30 - 20 = 10
+	c = c - d; // 
+	System.out.println("After swapping the numbers are c : " +c+ " d : " +d);
+	
+	//approach 3  - swapping two numbers
+	int e = 10, f = 20;
+	System.out.println("Before swapping the numbers are e : " +e+ " f : " +f);
+	
+	f = e + f - (e=f);
+	System.out.println("Before swapping the numbers are e : " +e+ " f : " +f);
+	
+	// reverse a number
+	
+	Scanner sc = new Scanner(System.in);
+	int number = sc.nextInt();
+	int rev= 0;
+	
+	while (num != 0)
+	{
+		rev = rev*10 + num%10;
+		num = num/10;
+	}
+	
+	}
+}

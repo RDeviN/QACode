@@ -1,0 +1,27 @@
+package Package;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.remote.MobileCapabilityType;
+
+public class base {
+	
+	public static AndroidDriver<AndroidElement> capabilities() throws MalformedURLException {
+		
+		File appdir = new File("Src");
+		File app = new File(appdir, "General-Store.apk");
+		
+		DesiredCapabilities capabilities = new DesiredCapabilities();
+		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Ramya-Emulator");
+		capabilities.setCapability(MobileCapabilityType.APPLICATION_NAME, "uiautomator");
+		capabilities.setCapability(MobileCapabilityType.APP, app.getAbsol);
+		AndroidDriver<AndroidElement> driver = new AndroidDriver<> (new URL("https://127.0.0.1:4723/wd/hub"), capabilities);
+		return driver;
+	}
+
+}

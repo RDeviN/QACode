@@ -1,0 +1,33 @@
+
+public class rev {
+	
+	//reverse a string
+	public static void main(String[] args) {
+	String input = "Ramya";
+	StringBuilder input1 = new StringBuilder();
+	input1.append(input);
+	input1 = input1.reverse();
+	System.out.println(input1);
+	
+	//sum of a number
+	int num = 234;
+	int sum = 0;
+	
+	while (num > 0) {
+		sum = sum + num%10;
+		num = num/10;
+	}	
+	
+	System.out.println("Sum is : " + sum);
+	
+	//swapping two numbers
+	
+	int a = 10, b = 20;
+	System.out.println("Before swapping the numbers are a :" +a+ " b :" +b);
+	int t = a;
+	a = b;
+	b = t;	
+	System.out.println("After swapping the numbers are a :" +a+ " b :" +b);
+	
+	}
+}

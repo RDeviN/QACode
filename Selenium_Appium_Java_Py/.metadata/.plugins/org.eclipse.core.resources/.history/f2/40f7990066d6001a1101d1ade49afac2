@@ -1,0 +1,8 @@
+package Package;
+
+public class playWithString {
+	public static void main(String[] args) {
+		
+	}
+
+}

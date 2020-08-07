@@ -1,0 +1,9 @@
+package Package;
+
+public class base {
+	
+	public static <AndroidElement> void main(String[] args) {
+		AndroidDriver<AndroidElement> driver;
+	}
+
+}

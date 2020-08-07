@@ -1,0 +1,9 @@
+package Package;
+
+public class playWithNumbers {
+	public static void main(String[] args) {
+		
+	}
+	
+
+}

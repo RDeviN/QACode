@@ -1,0 +1,22 @@
+
+public class rev {
+	
+	//reverse a string
+	public static void main(String[] args) {
+	String input = "Ramya";
+	StringBuilder input1 = new StringBuilder();
+	input1.append(input);
+	input1 = input1.reverse();
+	System.out.println(input1);
+	
+	//sum of a number
+	int num = 1234;
+	int sum = 0;
+	
+	if (sum > 0) {
+		sum = sum + num%10;
+		num = num/10;
+	}	
+	
+	}
+}

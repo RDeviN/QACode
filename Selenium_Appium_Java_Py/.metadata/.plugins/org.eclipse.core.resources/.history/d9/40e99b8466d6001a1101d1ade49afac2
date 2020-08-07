@@ -1,0 +1,9 @@
+package Package;
+
+public class playWithString {
+	public static void main(String[] args) {
+		String name = "This is Ramya", reverse;
+		
+	}
+
+}

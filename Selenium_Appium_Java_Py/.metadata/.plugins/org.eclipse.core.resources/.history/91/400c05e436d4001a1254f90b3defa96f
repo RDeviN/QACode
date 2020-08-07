@@ -1,0 +1,8 @@
+package Package;
+
+public class TestCase_1 extends base {
+	public static void main(String[] args) {
+		
+	}
+
+}

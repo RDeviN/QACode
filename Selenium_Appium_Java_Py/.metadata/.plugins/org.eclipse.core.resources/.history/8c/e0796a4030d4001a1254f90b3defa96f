@@ -1,0 +1,15 @@
+package Package;
+
+import java.util.Scanner;
+
+public class practice_3 {
+
+	public static void maim(String[] args) {
+	// reverse a string using for
+		
+		Scanner sc = new Scanner(System.in);
+		
+	
+	}
+	
+}
